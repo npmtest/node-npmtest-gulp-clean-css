@@ -1,6 +1,6 @@
 # npmtest-gulp-clean-css
 
-#### test coverage for  [gulp-clean-css (v3.0.4)](https://github.com/scniro/gulp-clean-css#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-clean-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-clean-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-clean-css.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-clean-css)
+#### basic test coverage for  [gulp-clean-css (v3.0.4)](https://github.com/scniro/gulp-clean-css#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-clean-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-clean-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-clean-css.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-clean-css)
 
 #### Minify css with clean-css.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-clean-css/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-clean-css/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-clean-css/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-clean-css/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-clean-css/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-clean-css/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-clean-css/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-clean-css/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-clean-css/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-clean-css/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-clean-css/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-clean-css/build/coverage.html/index.html)
 
@@ -103,7 +103,8 @@
     "scripts": {
         "test": "gulp test"
     },
-    "version": "3.0.4"
+    "version": "3.0.4",
+    "bin": {}
 }
 ```
 
